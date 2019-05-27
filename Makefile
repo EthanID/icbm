@@ -11,3 +11,7 @@ build/vector.o: src/vector.h src/vector.cpp
 
 bin/pngtomap: src/pngtomap.c
 	g++ -L/usr/lib/libpng.so -lpng -o bin/pngtomap src/pngtomap.c
+
+clean:
+	rm bin/*
+	rm build/*
