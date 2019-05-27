@@ -1,5 +1,8 @@
 #include <iostream>
 #include <math.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_timer.h>
 #include "vector.h"
 
 using namespace std;
